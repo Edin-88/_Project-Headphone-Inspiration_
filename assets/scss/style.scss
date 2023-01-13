@@ -1,0 +1,62 @@
+/*===== Import=====*/
+@import "mixin.scss";
+@import "variables.scss";
+
+
+/*===== Mixins =====*/
+// @mixin flexContainer {
+//     display: flex;
+//     justify-content: space-between;
+// }
+
+
+/*===== Fonts=====*/
+@font-face {
+    font-family: "work-sans";
+    src: url("../fonts/WorkSans-VariableFont_wght.ttf");
+}
+
+
+/*===== Global Styles =====*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: "work-sans";
+}
+
+body {
+    background-color: #2e2e2e ;
+}
+
+ul {
+    list-style-type: none; 
+    
+}
+
+a {
+    color: #ebccc2;;
+    text-decoration: none;
+    padding: 0 30px;
+    
+}
+
+.colorFonts{
+    color: #ebccc2;
+}
+
+/*===== Header =====*/
+
+header {
+    .navStyles {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 20px;
+        
+    }
+    ul {
+        display: flex;
+        padding-left: 60px;  
+        padding-right: 60px;   
+    }
+} 
