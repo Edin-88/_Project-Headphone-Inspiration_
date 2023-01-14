@@ -47,6 +47,10 @@ p {
     font-size: 0.9rem;
 }
 
+h3 {
+    color: $lightRosa;
+}
+
 a:hover {
     color: $lightRosa;
     text-decoration-color: $darkGray;
@@ -201,4 +205,62 @@ main {
         
     }
 }
+
+/*===== Inspiration Styles =====*/
+.videoWithPictureGallary {
+    .flexcontainer4 {
+        display: flex;
+        justify-content: center;
+        padding: 20vh 14vw;       
+    }
+    video {
+        width: 100%;
+    }
+    .contentInspiration {
+        margin-left: 14vw;
+    }
+    h2 {
+        padding-bottom: 4vh;
+        padding-top: 2vh;
+        padding-left: 0;
+    }
+    span {
+        color: $lightRosa;
+        opacity: 0.4;
+        margin-left: 14vw;
+        margin-right: -14vw;
+        padding: 1vh 1vw 1vh 1vw;
+        border: 1px solid $lightRosa;    
+    }
+    .descriptionAboutInspiration {
+        p{
+            margin-left: 12vw;
+            padding-bottom: 4vh;
+        }
+    }
+}
+
+
+.imageGallery {
+    margin: 10vh 14vw -10vh 14vw;
+    display: flex;
+    height: 50vh;
+   
+    img {
+       width: 100%;
+       padding-right: 1vw;
+    }
+    .content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        h2, h3 {
+           padding-left: 2vw; 
+            
+        }
+        
+    }
+    
+}
+ 
 

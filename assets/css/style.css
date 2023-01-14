@@ -33,6 +33,10 @@ p {
   font-size: 0.9rem;
 }
 
+h3 {
+  color: #ebccc2;
+}
+
 a:hover {
   color: #ebccc2;
   text-decoration-color: #2e2e2e;
@@ -168,6 +172,54 @@ main h2 {
 .mainExperience h2 {
   padding: 19vh 0 9vh 2vw;
   font-size: 2rem;
+}
+
+/*===== Inspiration Styles =====*/
+.videoWithPictureGallary .flexcontainer4 {
+  display: flex;
+  justify-content: center;
+  padding: 20vh 14vw;
+}
+.videoWithPictureGallary video {
+  width: 100%;
+}
+.videoWithPictureGallary .contentInspiration {
+  margin-left: 14vw;
+}
+.videoWithPictureGallary h2 {
+  padding-bottom: 4vh;
+  padding-top: 2vh;
+  padding-left: 0;
+}
+.videoWithPictureGallary span {
+  color: #ebccc2;
+  opacity: 0.4;
+  margin-left: 14vw;
+  margin-right: -14vw;
+  padding: 1vh 1vw 1vh 1vw;
+  border: 1px solid #ebccc2;
+}
+.videoWithPictureGallary .descriptionAboutInspiration p {
+  margin-left: 12vw;
+  padding-bottom: 4vh;
+}
+
+.imageGallery {
+  margin: 10vh 14vw -10vh 14vw;
+  display: flex;
+  height: 50vh;
+}
+.imageGallery img {
+  width: 100%;
+  padding-right: 1vw;
+}
+.imageGallery .content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.imageGallery .content h2, .imageGallery .content h3 {
+  padding-left: 2vw;
 }
 
 /*# sourceMappingURL=style.css.map */
