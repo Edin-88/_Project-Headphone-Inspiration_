@@ -26,8 +26,9 @@
 }
 
 body {
-    background-color: #2e2e2e ;
+    background-color: $darkGray;
 }
+
 
 ul {
     list-style-type: none; 
@@ -35,14 +36,25 @@ ul {
 }
 
 a {
-    color: #ebccc2;;
-    text-decoration: none;
-    padding: 0 30px;
-    
+    color: $rosa;
+    text-decoration: none; 
+    opacity: 0.6;
+}
+
+p {
+    line-height: 2rem;
+    opacity: 0.6;
+    font-size: 0.9rem;
+}
+
+a:hover {
+    color: $lightRosa;
+    text-decoration-color: $darkGray;
+    text-decoration: underline;
 }
 
 .colorFonts{
-    color: #ebccc2;
+    color: $lightRosa;
 }
 
 /*===== Header =====*/
@@ -51,12 +63,142 @@ header {
     .navStyles {
         display: flex;
         justify-content: space-between;
-        padding: 30px 20px;
-        
+        align-items: center;
+        padding: 40px 20px;
+        position: fixed;
+        top: 1vh;
+        left: 2vw;
+        right: 0;      
     }
     ul {
-        display: flex;
-        padding-left: 60px;  
-        padding-right: 60px;   
+        display: flex;       
+        padding-left: 40px;  
+        padding-right: 40px;   
+    }
+    a {
+        padding: 0 10px;
     }
 } 
+
+
+/*===== Navigation aside =====*/
+aside {
+    text-transform: uppercase;
+
+    a  {
+        display: block;
+        padding: 5vh 4vw;
+    }
+    nav {
+        position: fixed; 
+        top: 30vh; 
+        left: 0vw; 
+    }
+    .colorAbout {
+        color: $lightRosa;
+    }
+    .StylesH1 {
+        
+        padding-top: 23vh;
+        padding-bottom: 10vh;  
+        font-size: 2rem;
+        max-width: 35vw;
+        margin: auto;
+    }
+}
+
+
+/*===== Main Global Styles =====*/
+h1, h2, p {
+    color: $lightRosa;
+}
+
+/*===== Main First Section =====*/
+main {      
+    .flyingManImage {
+        background-image: url("../img/section-about-1.jpg");
+        height: 90vh;
+        width: 92%;
+        background-position: center;
+        background-size: cover;    
+        margin: 15vh auto;
+    }
+}  
+
+
+/*===== Main Second Section =====*/
+.desginAlchemy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    article {
+        padding-bottom: 20vh;
+        padding-top: 0vh;
+    }
+    img {
+        width: 40%;
+        height: 65%;
+    }
+    h2 {
+        padding-left: 3vw;
+        padding-bottom: 3vh;
+    }
+    p {
+        width: 35vw;
+        opacity: 0.4;
+        padding-left: 3vw;
+        padding-top: 2vh;    
+    }
+}
+
+
+/*===== Lounger Style =====*/
+
+main {
+    .flexContainer {
+        display: flex;
+    }
+    .loungerImage {
+        background-image: url("../img/section-voyager.jpg");
+        height: 100vh;
+        width: 57%;
+        background-position: center;
+        background-size: cover;
+    }
+    p {
+        width: 35vw; 
+        padding-left: 2vw;
+        padding-top: 3vh;     
+    }
+    h2 {
+        padding: 23vh 0 13vh 2vw;
+        font-size: 2rem;
+        
+    }
+}
+
+/*===== Experience  Styles =====*/
+.mainExperience {
+    .flexContainer3 {
+        display: flex;
+    }
+    .experienceImage{
+        background-image: url("../img/section-experience-1.jpg");
+        height: 100vh;
+        width: 57%;
+        background-position: center;
+        background-size: cover;
+    }
+    p {
+        width: 35vw; 
+        padding-left: 2vw;
+        padding-top: 3vh;     
+    }
+    h2 {
+        padding: 19vh 0 9vh 2vw;
+        font-size: 2rem;
+        
+    }
+}
+
